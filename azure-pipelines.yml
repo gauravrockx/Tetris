@@ -12,7 +12,7 @@ variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '2dff30eb-c1ee-465c-9acd-e94d5de403f8'
   imageRepository: 'tetrisapp'
-  containerRegistry: 'mylab20.azurecr.io'
+  containerRegistry: 'mylab22.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
